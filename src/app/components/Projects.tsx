@@ -48,6 +48,7 @@ const projects = [
     featured: false,
     image: "/images/monkey-logo.png",
     imageFit: "contain",
+    imagePad: "p-3",
   },
   {
     name: "TrailLix — AI Education Platform",
@@ -64,6 +65,7 @@ const projects = [
     featured: false,
     image: "/images/trailix-icon.png",
     imageFit: "contain",
+    imagePad: "p-10",
   },
 ];
 
@@ -110,7 +112,7 @@ export default function Projects() {
                         src={project.image}
                         alt={project.name}
                         fill
-                        className="object-contain p-8"
+                        className={`object-contain ${"imagePad" in project ? project.imagePad : "p-8"}`}
                         sizes="(max-width: 768px) 100vw, 600px"
                       />
                     ) : (

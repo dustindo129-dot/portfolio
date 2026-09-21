@@ -104,9 +104,9 @@ export default function Hero() {
               label: "LinkedIn",
             },
             {
-              href: "mailto:khongbuoncuoi69@gmail.com",
+              href: "#contact",
               Icon: FiMail,
-              label: "Email",
+              label: "Contact",
             },
           ].map(({ href, Icon, label }) => (
             <a
