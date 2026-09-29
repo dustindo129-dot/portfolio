@@ -3,6 +3,7 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
+import { FaApple, FaGooglePlay } from "react-icons/fa";
 import Image from "next/image";
 
 const projects = [
@@ -16,6 +17,8 @@ const projects = [
     ],
     github: null,
     live: null,
+    ios: "https://apps.apple.com/us/app/vamp-rideshare-revamped/id6758463258",
+    android: "https://play.google.com/store/apps/details?id=com.vampmobility.customer",
     badge: "Production · 7K+ Users",
     accent: "cyan",
     featured: true,
@@ -30,7 +33,9 @@ const projects = [
       "BullMQ", "Docker", "SSR", "CDN",
     ],
     github: null,
-    live: null,
+    live: "https://valvrareteam.net",
+    ios: null,
+    android: null,
     badge: "Production · 50K+ Users",
     accent: "violet",
     featured: true,
@@ -41,8 +46,10 @@ const projects = [
     description:
       "A cross-platform desktop app (Windows, macOS, Linux) for intelligent text and image translation. Built with React + Electron + Node.js and integrates Google Gemini AI for advanced multimodal processing.",
     tech: ["React", "Electron", "Node.js", "TypeScript", "Google Gemini AI"],
-    github: "https://github.com/dustindo129-dot",
+    github: "https://github.com/dustindo129-dot/MonkeyTranslate",
     live: null,
+    ios: null,
+    android: null,
     badge: "Personal Project · 2025",
     accent: "cyan",
     featured: false,
@@ -59,7 +66,9 @@ const projects = [
       "React Native", "Expo", "Redis", "Gemini AI",
     ],
     github: null,
-    live: null,
+    live: "https://apps.apple.com/ci/app/trailix-h%E1%BB%8Dc-prompt-ai/id6756608252",
+    ios: null,
+    android: null,
     badge: "Client Project · 2024–2025",
     accent: "violet",
     featured: false,
@@ -152,6 +161,28 @@ export default function Projects() {
                         aria-label="GitHub"
                       >
                         <FiGithub size={18} />
+                      </a>
+                    )}
+                    {project.ios && (
+                      <a
+                        href={project.ios}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-600 hover:text-white transition-colors"
+                        aria-label="App Store"
+                      >
+                        <FaApple size={18} />
+                      </a>
+                    )}
+                    {project.android && (
+                      <a
+                        href={project.android}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-600 hover:text-white transition-colors"
+                        aria-label="Google Play"
+                      >
+                        <FaGooglePlay size={16} />
                       </a>
                     )}
                     {project.live && (
