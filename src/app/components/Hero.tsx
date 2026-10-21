@@ -55,7 +55,7 @@ export default function Hero() {
           className="font-display font-bold text-2xl md:text-3xl lg:text-4xl mb-6"
         >
           <span className="bg-gradient-to-r from-cyan-400 via-cyan-300 to-violet-400 bg-clip-text text-transparent">
-            Senior Software Engineer
+            Full-Stack Engineer
           </span>
         </motion.h2>
 

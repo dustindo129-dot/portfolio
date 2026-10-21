@@ -43,7 +43,7 @@ export default function About() {
               <p>
                 I&apos;m a{" "}
                 <span className="text-white font-medium">
-                  Senior Software Engineer
+                  Full-Stack Engineer
                 </span>{" "}
                 with 4+ years of experience building full-stack products that
                 scale. I architect systems end-to-end — from API design and
