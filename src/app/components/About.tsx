@@ -5,7 +5,7 @@ import { motion, useInView } from "framer-motion";
 import { FiMapPin, FiShield, FiZap } from "react-icons/fi";
 
 const stats = [
-  { value: "7K+", label: "Live Users (Vamp)", color: "text-cyan-400" },
+  { value: "10K+", label: "Live Users (Vamp)", color: "text-cyan-400" },
   { value: "50K+", label: "Users (Valvrare)", color: "text-violet-400" },
   { value: "4.9★", label: "App Store Rating", color: "text-cyan-400" },
   { value: "4+", label: "Years Experience", color: "text-violet-400" },
@@ -54,8 +54,8 @@ export default function About() {
                 <span className="text-cyan-400 font-medium">Vamp</span>, an
                 all-electric rideshare platform I built from the ground up. In
                 under six months, we grew to{" "}
-                <span className="text-white font-medium">~7,000 live customers</span>{" "}
-                with 4.9-star ratings on both app stores.
+                <span className="text-white font-medium">10,000+ live customers</span>{" "}
+                with 4.9-star ratings on both app stores and 10,000+ live customers.
               </p>
               <p>
                 Before that, I independently scaled{" "}

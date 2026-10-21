@@ -10,7 +10,7 @@ const projects = [
   {
     name: "Vamp — All-Electric Rideshare Platform",
     description:
-      "A production microservices rideshare platform built from the ground up. Features live driver dispatch, real-time tracking, Stripe payments, and a React/Next.js admin dashboard with live analytics. Scaled to 7,000+ customers with 4.9★ ratings in under 6 months.",
+      "A production microservices rideshare platform built from the ground up. Features live driver dispatch, real-time tracking, Stripe payments, and a React/Next.js admin dashboard with live analytics. Scaled to 10,000+ customers with 4.9★ ratings in under 6 months.",
     tech: [
       "Node.js", "TypeScript", "React", "Next.js",
       "MongoDB", "Redis", "Kafka", "Docker", "AWS", "Nginx",
@@ -19,7 +19,7 @@ const projects = [
     live: null,
     ios: "https://apps.apple.com/us/app/vamp-rideshare-revamped/id6758463258",
     android: "https://play.google.com/store/apps/details?id=com.vampmobility.customer",
-    badge: "Production · 7K+ Users",
+    badge: "Production · 10K+ Users",
     accent: "cyan",
     featured: true,
     image: "/images/vampwebsite1.png",

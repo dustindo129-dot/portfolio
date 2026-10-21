@@ -14,7 +14,7 @@ const slides = [
 ];
 
 const stats = [
-  { value: "7K+", label: "Live Customers" },
+  { value: "10K+", label: "Live Customers" },
   { value: "4.9★", label: "App Store Rating" },
   { value: "100%", label: "Electric Fleet" },
   { value: "~6mo", label: "To Launch" },
@@ -113,7 +113,7 @@ export default function VampShowcase() {
               Architected and lead engineering on a production all-electric rideshare
               platform — microservices backend, React/Next.js dashboard, and a
               4.9★-rated mobile app scaled to{" "}
-              <span className="text-white font-medium">7,000+ customers</span> in under
+              <span className="text-white font-medium">10,000+ customers</span> in under
               6 months.
             </p>
 

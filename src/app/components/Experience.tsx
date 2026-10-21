@@ -15,7 +15,7 @@ const experiences = [
       "Designed and built RESTful APIs across 5+ Node.js/Express microservices (user, order, location, payment, notification) behind an Nginx API gateway.",
       "Built the React/Next.js admin dashboard with live dispatch, map-based driver tracking, and real-time analytics.",
       "Integrated Stripe payments, third-party mapping/dispatch, and messaging; containerized all services with Docker on AWS.",
-      "Scaled to ~7,000 live customers in under 6 months — 4.9-star rated on both app stores as an all-electric rideshare.",
+      "Scaled to 10,000+ live customers in under 6 months — 4.9-star rated on both app stores as an all-electric rideshare.",
       "Lead code reviews, mentor engineers, and champion testing, code quality, and documentation best practices.",
     ],
     tech: [
